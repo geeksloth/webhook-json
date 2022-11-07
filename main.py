@@ -21,7 +21,7 @@ from collections import defaultdict
 tic = time()
 auth = HTTPBasicAuth()
 users = {
-    "a": generate_password_hash("0202")
+    "admin": generate_password_hash("1234")
 }
 
 def check_allowed_file(filename):
